@@ -13,7 +13,7 @@ angular.module("spaApp",["ngRoute"])
     .when("/movie",{
         
         templateUrl:'christ/movie.html',
-        controller:'myctrl2'
+        controller:'myctrl1'
     })
     
    

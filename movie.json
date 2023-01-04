@@ -1,7 +1,7 @@
 {"records":[ 
-{"id":1,"name":"Rithul","gender":"Male"},
-{"id":2,"name":"Indu","gender":"Female"},
-{"id":3,"name":"Anu","gender":"Female"},
-{"id":4,"name":"Manu","gender":"Male"},
-{"id":5,"name":"Sadhur","gender":"Male"},
-{"id":6,"name":"Veena","gender":"Female"}]}
+{"id":1,"name":"Fast and Furious","rating":"4.5"},
+{"id":2,"name":"Black Adam","rating":"4.5"},
+{"id":3,"name":"Avatar","rating":"4.5"},
+{"id":4,"name":"Avengers Endgame","rating":"4.2"},
+{"id":5,"name":"Thor Ragnarok","rating":"4.2"},
+{"id":6,"name":"Conjuring","rating":"4.5"}]}

@@ -11,12 +11,14 @@
     enter keyword to search<input type="text" ng-model="search" />
     <table border="1">
       <tr>
-        <td>name</td>
-        <td>gender</td>
+        <td>ID</td>
+        <td>Movie</td>
+        <td>Rating</td>
       </tr>
-      <tr ng-repeat="item in employees|filter:search">
+      <tr ng-repeat="item in movies|filter:search">
+        <td>{{item.id}}</td>
         <td>{{item.name}}</td>
-        <td>{{item.gender}}</td>
+        <td>{{item.rating}}</td>
       </tr>
     </table>
   </body>

@@ -4,20 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5502/christ/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>Top Movies</h1>
-    enter keyword to search<input type="text" ng-model="search" />
+    
     <table border="1">
-      <tr>
+      <h2>Movie</h2>
+      <caption>Enter name to search: <input type="text" ng-model="search" /></caption>
+      <thead>
         <td>ID</td>
         <td>Movie</td>
+        <td>Description</td>
         <td>Rating</td>
-      </tr>
+      </thead>
       <tr ng-repeat="item in movies|filter:search">
         <td>{{item.id}}</td>
         <td>{{item.name}}</td>
+        <td>{{item.desc}}</td>
         <td>{{item.rating}}</td>
       </tr>
     </table>

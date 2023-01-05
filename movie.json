@@ -1,7 +1,7 @@
 {"records":[ 
-{"id":1,"name":"Fast and Furious","desc":"Good Movie","rating":"4.5"},
-{"id":2,"name":"Black Adam","desc":"Good Movie","rating":"4.5"},
-{"id":3,"name":"Avatar","desc":"Good Movie","rating":"4.5"},
-{"id":4,"name":"Avengers Endgame","desc":"Good Movie","rating":"4.2"},
-{"id":5,"name":"Thor Ragnarok","desc":"Good Movie","rating":"4.2"},
-{"id":6,"name":"Conjuring","desc":"Good Movie","rating":"4.5"}]}
+{"id":1,"name":"Fast and Furious","desc":"Movie about racing","rating":"4.5"},
+{"id":2,"name":"Black Adam","desc":"A superhero movie by Marvel","rating":"4.5"},
+{"id":3,"name":"Avatar","desc":"Ancient Beings in a new world","rating":"4.5"},
+{"id":4,"name":"Avengers Endgame","desc":"Avengers save the world","rating":"4.2"},
+{"id":5,"name":"Thor Ragnarok","desc":"Thor fighting Greek gods","rating":"4.2"},
+{"id":6,"name":"Conjuring","desc":"Horror movie based on real events","rating":"4.5"}]}
